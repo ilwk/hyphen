@@ -26,10 +26,13 @@ import {
   Users,
 } from 'lucide-react';
 
-import { cn, AspectRatio } from 'ui';
-import { Avatar, AvatarFallback, AvatarImage } from 'ui/src/avatar';
-import { Button } from 'ui/src/button';
 import {
+  cn,
+  AspectRatio,
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+  Button,
   ContextMenu,
   ContextMenuContent,
   ContextMenuItem,
@@ -38,8 +41,6 @@ import {
   ContextMenuSubContent,
   ContextMenuSubTrigger,
   ContextMenuTrigger,
-} from 'ui/src/context-menu';
-import {
   Dialog,
   DialogContent,
   DialogDescription,
@@ -47,8 +48,6 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from 'ui/src/dialog';
-import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuGroup,
@@ -61,10 +60,6 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from 'ui/src/dropdown-menu';
-import { Input } from 'ui/src/input';
-import { Label } from 'ui/src/label';
-import {
   Menubar,
   MenubarCheckboxItem,
   MenubarContent,
@@ -79,15 +74,16 @@ import {
   MenubarSubContent,
   MenubarSubTrigger,
   MenubarTrigger,
-} from 'ui/src/menubar';
-import { ScrollArea, ScrollBar } from 'ui/src/scroll-area';
-import { Separator } from 'ui/src/separator';
-import {
+  Input,
+  Label,
+  ScrollArea,
+  ScrollBar,
+  Separator,
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from 'ui/src/tabs';
+} from 'ui';
 
 const playlists = [
   'Recently Added',
@@ -351,7 +347,7 @@ export function AppleMusicDemo() {
       <div className="p-8">
         <div className="transition-all bg-white rounded-md shadow-2xl dark:bg-slate-900">
           <div className="grid grid-cols-4 xl:grid-cols-5">
-            <aside className="pb-12">
+            <aside>
               <div className="px-8 py-6">
                 <p className="flex items-center text-2xl font-semibold tracking-tight">
                   <Music className="mr-2" />
@@ -438,10 +434,10 @@ export function AppleMusicDemo() {
                   </div>
                 </div>
                 <div className="py-2">
-                  <h2 className="relative px-8 text-lg font-semibold tracking-tight">
-                    Playlists <DemoIndicator className="right-28" />
+                  <h2 className="relative px-8 mb-2 text-lg font-semibold tracking-tight">
+                    Playlists
                   </h2>
-                  <ScrollArea className="h-[230px] px-4">
+                  <ScrollArea className="h-[280px] px-4">
                     <div className="p-2 space-y-1">
                       {playlists.map((playlist) => (
                         <Button
@@ -661,7 +657,6 @@ export function AppleMusicDemo() {
                             <Button size="sm" className="relative">
                               <Plus className="w-4 h-4 mr-2" />
                               Add Podcast
-                              <DemoIndicator className="z-30 -top-1 -right-1" />
                             </Button>
                           </DialogTrigger>
                           <DialogContent>

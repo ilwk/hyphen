@@ -11,7 +11,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       defaultTheme="system"
       enableSystem
     >
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </ThemeProvider>
   );
 }
