@@ -1,4 +1,9 @@
 module.exports = {
   reactStrictMode: true,
-  transpilePackages: ["ui"],
+  swcMinify: true,
+  images: {
+    domains: ['avatars.githubusercontent.com', 'images.unsplash.com'],
+  },
+
+  transpilePackages: ['ui'],
 };
