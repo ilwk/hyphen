@@ -1,8 +1,13 @@
-import { MessageCircle, Music } from 'lucide-react';
+import { LayoutDashboard, MessageCircle, Music } from 'lucide-react';
 import Link from 'next/link';
 import { cn } from 'ui';
 
 const navList = [
+  {
+    href: '/dashboard',
+    icon: <LayoutDashboard />,
+    className: 'bg-blue-500',
+  },
   {
     href: '/music',
     icon: <Music size={32}></Music>,
