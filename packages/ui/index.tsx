@@ -12,6 +12,7 @@ export * from './src/hover-card';
 export * from './src/input';
 export * from './src/label';
 export * from './src/menubar';
+export * from './src/navigation-menu';
 export * from './src/popover';
 export * from './src/progress';
 export * from './src/radio-group';
