@@ -1,3 +1,5 @@
+'use client';
+
 import * as React from 'react';
 import Image from 'next/image';
 import {
@@ -24,13 +26,14 @@ import {
   Users,
 } from 'lucide-react';
 
+import { cn } from 'ui';
+import { AppMenubar } from '~/components/app-menubar';
+
+import { Button } from 'ui/src/button';
+
+import { AspectRatio } from 'ui/src/aspect-ratio';
+import { Avatar, AvatarFallback, AvatarImage } from 'ui/src/avatar';
 import {
-  cn,
-  AspectRatio,
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-  Button,
   ContextMenu,
   ContextMenuContent,
   ContextMenuItem,
@@ -39,6 +42,8 @@ import {
   ContextMenuSubContent,
   ContextMenuSubTrigger,
   ContextMenuTrigger,
+} from 'ui/src/context-menu';
+import {
   Dialog,
   DialogContent,
   DialogDescription,
@@ -46,6 +51,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
+} from 'ui/src/dialog';
+import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuGroup,
@@ -58,17 +65,18 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-  Input,
-  Label,
-  ScrollArea,
-  ScrollBar,
-  Separator,
+} from 'ui/src/dropdown-menu';
+import { Input } from 'ui/src/input';
+import { Label } from 'ui/src/label';
+
+import { ScrollArea, ScrollBar } from 'ui/src/scroll-area';
+import { Separator } from 'ui/src/separator';
+import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from 'ui';
-import { AppMenubar } from './app-menubar';
+} from 'ui/src/tabs';
 
 const playlists = [
   'Recently Added',

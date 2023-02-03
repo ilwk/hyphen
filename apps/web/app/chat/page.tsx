@@ -1,23 +1,10 @@
-import * as React from 'react';
 import { Slack } from 'lucide-react';
 
-import { cn, Avatar, AvatarImage, Button, ScrollArea } from 'ui';
-import { AppMenubar } from '~/components/app-menubar';
+import { Button } from 'ui/src/button';
+import { Avatar, AvatarImage } from 'ui/src/Avatar';
+import { ScrollArea } from 'ui/src/scroll-area';
 
-const playlists = [
-  'Recently Added',
-  'Recently Played',
-  'Top Songs',
-  'Top Albums',
-  'Top Artists',
-  'Logic Discography',
-  'Bedtime Beats',
-  'Feeling Happy',
-  'I miss Y2K Pop',
-  'Runtober',
-  'Mellow Days',
-  'Eminem Essentials',
-];
+import { AppMenubar } from '~/components/app-menubar';
 
 const channels = [
   {

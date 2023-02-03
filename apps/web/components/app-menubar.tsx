@@ -1,20 +1,22 @@
+'use client';
+
 import { Globe, Mic } from 'lucide-react';
 import {
   Menubar,
-  MenubarSub,
-  MenubarMenu,
   MenubarCheckboxItem,
   MenubarContent,
   MenubarItem,
   MenubarLabel,
+  MenubarMenu,
   MenubarRadioGroup,
   MenubarRadioItem,
   MenubarSeparator,
   MenubarShortcut,
+  MenubarSub,
   MenubarSubContent,
   MenubarSubTrigger,
   MenubarTrigger,
-} from 'ui';
+} from 'ui/src/menubar';
 
 export const AppMenubar: React.FC<{
   name: string;

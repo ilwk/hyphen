@@ -1,6 +1,5 @@
 import { LayoutDashboard, MessageCircle, Music } from 'lucide-react';
 import Link from 'next/link';
-import { cn } from 'ui';
 
 const navList = [
   {
@@ -27,11 +26,11 @@ export default function Web() {
         {navList.map((item) => (
           <Link
             href={item.href}
-            className={cn(
+            className={[
               'flex items-center justify-center p-4 rounded-lg shadow-lg bg-grey-500',
               'transition hover:scale-110 ease-in-out duration-300',
-              item.className
-            )}
+              item.className,
+            ].join(' ')}
           >
             {item.icon}
           </Link>
