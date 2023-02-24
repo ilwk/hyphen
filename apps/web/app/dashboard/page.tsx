@@ -14,7 +14,7 @@ import '@tremor/react/dist/esm/tremor.css';
 
 import { useState } from 'react';
 
-export default function DashboardPage() {
+export default function DashboardPage(): JSX.Element {
   const [selectedView, setSelectedView] = useState(1);
   return (
     <main className="p-10">
