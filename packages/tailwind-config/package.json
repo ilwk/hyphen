@@ -5,7 +5,9 @@
   "main": "index.js",
   "devDependencies": {
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
     "tailwindcss-animate": "^1.0.5"
   }
 }
