@@ -1,21 +1,11 @@
 'use client';
 
-import {
-  Card,
-  Title,
-  Text,
-  Tab,
-  TabList,
-  ColGrid,
-  Block,
-} from '@tremor/react';
-
-import '@tremor/react/dist/esm/tremor.css';
+import { Card, Title, Text, Tab, TabList, Grid } from '@tremor/react';
 
 import { useState } from 'react';
 
 export default function DashboardPage(): JSX.Element {
-  const [selectedView, setSelectedView] = useState(1);
+  const [selectedView, setSelectedView] = useState('1');
   return (
     <main className="p-10">
       <Title>Dashboard</Title>
@@ -24,22 +14,20 @@ export default function DashboardPage(): JSX.Element {
       </Text>
 
       <TabList
-        defaultValue={1}
-        handleSelect={(value) => setSelectedView(value)}
-        marginTop="mt-6"
+        defaultValue={'1'}
+        onValueChange={(value: string) => setSelectedView(value)}
+        className="mt-6"
       >
-        <Tab value={1} text="Page 1" />
-        <Tab value={2} text="Page 2" />
+        <Tab value={'1'} text="Page 1" />
+        <Tab value={'2'} text="Page 2" />
       </TabList>
 
-      {selectedView === 1 ? (
+      {selectedView === '1' ? (
         <>
-          <ColGrid
+          <Grid
+            className="mt-6 gap-x-6 gap-y-6"
             numColsMd={2}
             numColsLg={3}
-            gapX="gap-x-6"
-            gapY="gap-y-6"
-            marginTop="mt-6"
           >
             <Card>
               {/* Placeholder to set height */}
@@ -53,20 +41,20 @@ export default function DashboardPage(): JSX.Element {
               {/* Placeholder to set height */}
               <div className="h-28" />
             </Card>
-          </ColGrid>
+          </Grid>
 
-          <Block marginTop="mt-6">
+          <div className="mt-6">
             <Card>
               <div className="h-80" />
             </Card>
-          </Block>
+          </div>
         </>
       ) : (
-        <Block marginTop="mt-6">
+        <div className="mt-6">
           <Card>
             <div className="h-96" />
           </Card>
-        </Block>
+        </div>
       )}
     </main>
   );
