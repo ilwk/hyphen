@@ -16,7 +16,7 @@
     "react-dom": "18.2.0",
     "tailwind-config": "workspace:*",
     "tsconfig": "workspace:*",
-    "typescript": "^4.9.5"
+    "typescript": "^5.0.4"
   },
   "dependencies": {
     "@radix-ui/react-accessible-icon": "^1.0.2",
@@ -45,9 +45,9 @@
     "@radix-ui/react-tabs": "^1.0.3",
     "@radix-ui/react-toggle-group": "^1.0.3",
     "@radix-ui/react-tooltip": "^1.0.5",
-    "class-variance-authority": "^0.4.0",
+    "class-variance-authority": "^0.5.2",
     "clsx": "^1.2.1",
-    "lucide-react": "^0.109.0",
+    "lucide-react": "^0.139.0",
     "tailwind-merge": "^1.12.0"
   }
 }
