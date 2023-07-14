@@ -1,7 +1,7 @@
 lockfileVersion: '6.0'
 
 settings:
-  autoInstallPeers: false
+  autoInstallPeers: true
   excludeLinksFromLockfile: false
 
 importers:
@@ -25,7 +25,7 @@ importers:
     dependencies:
       '@tremor/react':
         specifier: ^2.1.0
-        version: 2.1.0(@types/react@18.0.34)(react-dom@18.2.0)(react@18.2.0)
+        version: 2.1.0(@types/react@18.0.34)(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
       lucide-react:
         specifier: ^0.260.0
         version: 0.260.0(react@18.2.0)
@@ -1350,7 +1350,7 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@tremor/react@2.1.0(@types/react@18.0.34)(react-dom@18.2.0)(react@18.2.0):
+  /@tremor/react@2.1.0(@types/react@18.0.34)(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-LOJoJqK/H4eL13kxFkp/5CyZo6hjDGYpQxS/eAQxAqwv+d51CcrnS2GE+Cp3U5wTVZ1ve8sdYaa5kuOAEvxQyg==}
     peerDependencies:
       react: ^18.0.0
@@ -1359,7 +1359,7 @@ packages:
       date-fns: 2.29.3
       react: 18.2.0
       react-transition-group: 4.4.5(react-dom@18.2.0)(react@18.2.0)
-      recharts: 2.3.2(react-dom@18.2.0)(react@18.2.0)
+      recharts: 2.3.2(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
       tailwind-merge: 1.12.0
     transitivePeerDependencies:
       - '@types/react'
@@ -3424,7 +3424,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /react-smooth@2.0.1(react-dom@18.2.0)(react@18.2.0):
+  /react-smooth@2.0.1(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-Own9TA0GPPf3as4vSwFhDouVfXP15ie/wIHklhyKBH5AN6NFtdk0UpHBnonV11BtqDkAWlt40MOUc+5srmW7NA==}
     peerDependencies:
       prop-types: ^15.6.0
@@ -3432,6 +3432,7 @@ packages:
       react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
       fast-equals: 2.0.4
+      prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-transition-group: 2.9.0(react-dom@18.2.0)(react@18.2.0)
@@ -3505,7 +3506,7 @@ packages:
       decimal.js-light: 2.5.1
     dev: false
 
-  /recharts@2.3.2(react-dom@18.2.0)(react@18.2.0):
+  /recharts@2.3.2(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-2II30fGzKaypHfHNQNUhCfiLMxrOS/gF0WFahDIEFgXtJkVEe2DpZWFfEfAn+RU3B7/h2V/B05Bwmqq3rTXwLw==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -3516,11 +3517,12 @@ packages:
       classnames: 2.3.2
       eventemitter3: 4.0.7
       lodash: 4.17.21
+      prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-is: 16.13.1
       react-resize-detector: 7.1.2(react-dom@18.2.0)(react@18.2.0)
-      react-smooth: 2.0.1(react-dom@18.2.0)(react@18.2.0)
+      react-smooth: 2.0.1(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
       recharts-scale: 0.4.5
       reduce-css-calc: 2.1.8
       victory-vendor: 36.6.8
