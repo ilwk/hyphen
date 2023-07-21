@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@tremor/react": "^2.1.0",
+    "@tremor/react": "^3.0.0",
     "lucide-react": "^0.260.0",
     "next": "^13.3.0",
     "next-themes": "^0.2.1",
