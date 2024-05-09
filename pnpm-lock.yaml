@@ -12,7 +12,7 @@ importers:
         specifier: workspace:*
         version: link:packages/config-eslint
       '@types/node':
-        specifier: ^20.12.7
+        specifier: 20.12.7
         version: 20.12.7
       prettier:
         specifier: latest
@@ -55,7 +55,7 @@ importers:
         specifier: workspace:*
         version: link:../../packages/config-typescript
       '@types/node':
-        specifier: ^20.12.11
+        specifier: 20.12.11
         version: 20.12.11
       '@types/react':
         specifier: ^18.3.1
@@ -64,25 +64,25 @@ importers:
         specifier: ^18.3.0
         version: 18.3.0
       autoprefixer:
-        specifier: ^10.4.19
+        specifier: 10.4.19
         version: 10.4.19(postcss@8.4.38)
       postcss:
-        specifier: ^8.4.38
+        specifier: 8.4.38
         version: 8.4.38
       tailwindcss:
-        specifier: ^3.4.3
+        specifier: 3.4.3
         version: 3.4.3
       typescript:
-        specifier: ^5.4.5
+        specifier: 5.4.5
         version: 5.4.5
 
   packages/config-eslint:
     devDependencies:
       '@vercel/style-guide':
-        specifier: ^5.2.0
+        specifier: 5.2.0
         version: 5.2.0(@next/eslint-plugin-next@14.2.3)(eslint@8.57.0)(prettier@3.2.5)(typescript@5.4.5)
       eslint-config-turbo:
-        specifier: ^1.12.4
+        specifier: 1.13.3
         version: 1.13.3(eslint@8.57.0)
 
   packages/config-tailwind:
@@ -91,7 +91,7 @@ importers:
         specifier: workspace:*
         version: link:../config-typescript
       tailwindcss:
-        specifier: ^3.3.1
+        specifier: 3.4.3
         version: 3.4.3
 
   packages/config-typescript: {}
@@ -205,16 +205,16 @@ importers:
         specifier: ^18.0.11
         version: 18.3.0
       eslint:
-        specifier: ^8.38.0
+        specifier: 8.57.0
         version: 8.57.0
       react:
-        specifier: ^18.2.0
+        specifier: 18.3.1
         version: 18.3.1
       react-dom:
         specifier: 18.2.0
         version: 18.2.0(react@18.3.1)
       typescript:
-        specifier: ^5.0.4
+        specifier: 5.4.5
         version: 5.4.5
 
 packages:
