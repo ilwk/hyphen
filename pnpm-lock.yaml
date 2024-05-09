@@ -46,7 +46,7 @@ importers:
         version: link:../../packages/ui
     devDependencies:
       '@types/node':
-        specifier: ^18.15.11
+        specifier: ^18.19.31
         version: 18.19.31
       '@types/react':
         specifier: ^18.0.34
