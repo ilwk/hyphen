@@ -26,7 +26,7 @@
     "postcss": "^8.4.38",
     "tailwind-config": "workspace:*",
     "tailwindcss": "^3.4.3",
-    "tsconfig": "workspace:*",
+    "@repo/config-typescript": "workspace:*",
     "typescript": "^5.4.5"
   }
 }
