@@ -11,10 +11,10 @@
     "@types/react": "^18.0.34",
     "@types/react-dom": "^18.0.11",
     "eslint": "^8.38.0",
-    "eslint-config-custom": "workspace:*",
+    "@repo/config-eslint": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
-    "tailwind-config": "workspace:*",
+    "@repo/config-tailwind": "workspace:*",
     "@repo/config-typescript": "workspace:*",
     "typescript": "^5.0.4"
   },

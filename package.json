@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.12.7",
-    "eslint-config-custom": "workspace:*",
+    "@repo/config-eslint": "workspace:*",
     "prettier": "latest",
     "turbo": "latest"
   },
