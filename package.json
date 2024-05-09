@@ -13,7 +13,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@types/node": "^20.12.7",
+    "@types/node": "20.12.7",
     "@repo/config-eslint": "workspace:*",
     "prettier": "latest",
     "turbo": "latest"
