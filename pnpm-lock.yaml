@@ -19,7 +19,7 @@ importers:
         version: 3.3.2
       turbo:
         specifier: latest
-        version: 2.0.4
+        version: 2.0.5
 
   apps/web:
     dependencies:
@@ -27,8 +27,8 @@ importers:
         specifier: ^3.16.2
         version: 3.17.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(tailwindcss@3.4.4)
       lucide-react:
-        specifier: ^0.395.0
-        version: 0.395.0(react@18.3.1)
+        specifier: ^0.397.0
+        version: 0.397.0(react@18.3.1)
       next:
         specifier: ^14.2.3
         version: 14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -183,8 +183,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       lucide-react:
-        specifier: ^0.395.0
-        version: 0.395.0(react@18.3.1)
+        specifier: ^0.397.0
+        version: 0.397.0(react@18.3.1)
       tailwind-merge:
         specifier: ^2.3.0
         version: 2.3.0
@@ -2418,10 +2418,10 @@ packages:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
 
-  lucide-react@0.395.0:
-    resolution: {integrity: sha512-6hzdNH5723A4FLaYZWpK50iyZH8iS2Jq5zuPRRotOFkhu6kxxJiebVdJ72tCR5XkiIeYFOU5NUawFZOac+VeYw==}
+  lucide-react@0.397.0:
+    resolution: {integrity: sha512-rUcbRY5jFP/4za/OJvaRUUmdPsPb940Tw9zE1ehrRZmr9JnkDcW8OV3POR3XfEAAMDkssiTc5IWBFv8Y//pkDQ==}
     peerDependencies:
-      react: ^16.5.1 || ^17.0.0 || ^18.0.0
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
@@ -3053,38 +3053,38 @@ packages:
     peerDependencies:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
 
-  turbo-darwin-64@2.0.4:
-    resolution: {integrity: sha512-x9mvmh4wudBstML8Z8IOmokLWglIhSfhQwnh2gBCSqabgVBKYvzl8Y+i+UCNPxheCGTgtsPepTcIaKBIyFIcvw==}
+  turbo-darwin-64@2.0.5:
+    resolution: {integrity: sha512-t/9XpWYIjOhIHUdwiR47SYBGYHkR1zWLxTkTNKZwCSn8BN0cfjPZ1BR6kcwYGxLGBhtl5GBf6A29nq2K7iwAjg==}
     cpu: [x64]
     os: [darwin]
 
-  turbo-darwin-arm64@2.0.4:
-    resolution: {integrity: sha512-/B1Ih8zPRGVw5vw4SlclOf3C/woJ/2T6ieH6u54KT4wypoaVyaiyMqBcziIXycdObIYr7jQ+raHO7q3mhay9/A==}
+  turbo-darwin-arm64@2.0.5:
+    resolution: {integrity: sha512-//5y4RJvnal8CttOLBwlaBqblcQb1qTlIxLN+I8O3E3rPuvHOupNKB9ZJxYIQ8oWf8ns8Ec8cxQ0GSBLTJIMtA==}
     cpu: [arm64]
     os: [darwin]
 
-  turbo-linux-64@2.0.4:
-    resolution: {integrity: sha512-6aG670e5zOWu6RczEYcB81nEl8EhiGJEvWhUrnAfNEUIMBEH1pR5SsMmG2ol5/m3PgiRM12r13dSqTxCLcHrVg==}
+  turbo-linux-64@2.0.5:
+    resolution: {integrity: sha512-LDtEDU2Gm8p3lKu//aHXZFRKUCVu68BNF9LQ+HmiCKFpNyK7khpMTxIAAUhDqt+AzlrbxtrxcCpCJaWg1JDjHg==}
     cpu: [x64]
     os: [linux]
 
-  turbo-linux-arm64@2.0.4:
-    resolution: {integrity: sha512-AXfVOjst+mCtPDFT4tCu08Qrfv12Nj7NDd33AjGwV79NYN1Y1rcFY59UQ4nO3ij3rbcvV71Xc+TZJ4csEvRCSg==}
+  turbo-linux-arm64@2.0.5:
+    resolution: {integrity: sha512-84wdrzntErBNxkHcwHxiTZdaginQAxGPnwLTyZj8lpUYI7okPoxy3jKpUeMHN3adm3iDedl/x0mYSIvVVkmOiA==}
     cpu: [arm64]
     os: [linux]
 
-  turbo-windows-64@2.0.4:
-    resolution: {integrity: sha512-QOnUR9hKl0T5gq5h1fAhVEqBSjpcBi/BbaO71YGQNgsr6pAnCQdbG8/r3MYXet53efM0KTdOhieWeO3KLNKybA==}
+  turbo-windows-64@2.0.5:
+    resolution: {integrity: sha512-SgaFZ0VW6kHCJogLNuLEleAauAJx2Y48wazZGVRmBpgSUS2AylXesaBMhJaEScYqLz7mIRn6KOgwM8D4wTxI9g==}
     cpu: [x64]
     os: [win32]
 
-  turbo-windows-arm64@2.0.4:
-    resolution: {integrity: sha512-3v8WpdZy1AxZw0gha0q3caZmm+0gveBQ40OspD6mxDBIS+oBtO5CkxhIXkFJJW+jDKmDlM7wXDIGfMEq+QyNCQ==}
+  turbo-windows-arm64@2.0.5:
+    resolution: {integrity: sha512-foUxLOZoru0IRNIxm53fkfM4ubas9P0nTFjIcHtd+E8YHeogt8GqTweNre2e6ri1EHDo71emmuQgpuoFCOXZMg==}
     cpu: [arm64]
     os: [win32]
 
-  turbo@2.0.4:
-    resolution: {integrity: sha512-Ilme/2Q5kYw0AeRr+aw3s02+WrEYaY7U8vPnqSZU/jaDG/qd6jHVN6nRWyd/9KXvJGYM69vE6JImoGoyNjLwaw==}
+  turbo@2.0.5:
+    resolution: {integrity: sha512-+6+hcWr4nwuESlKqUc626HMOTd3QT8hUOc9QM45PP1d4nErGkNOgExm4Pcov3in7LTuadMnB0gcd/BuzkEDIPw==}
     hasBin: true
 
   type-check@0.4.0:
@@ -5711,7 +5711,7 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  lucide-react@0.395.0(react@18.3.1):
+  lucide-react@0.397.0(react@18.3.1):
     dependencies:
       react: 18.3.1
 
@@ -6387,32 +6387,32 @@ snapshots:
       tslib: 1.14.1
       typescript: 5.5.2
 
-  turbo-darwin-64@2.0.4:
+  turbo-darwin-64@2.0.5:
     optional: true
 
-  turbo-darwin-arm64@2.0.4:
+  turbo-darwin-arm64@2.0.5:
     optional: true
 
-  turbo-linux-64@2.0.4:
+  turbo-linux-64@2.0.5:
     optional: true
 
-  turbo-linux-arm64@2.0.4:
+  turbo-linux-arm64@2.0.5:
     optional: true
 
-  turbo-windows-64@2.0.4:
+  turbo-windows-64@2.0.5:
     optional: true
 
-  turbo-windows-arm64@2.0.4:
+  turbo-windows-arm64@2.0.5:
     optional: true
 
-  turbo@2.0.4:
+  turbo@2.0.5:
     optionalDependencies:
-      turbo-darwin-64: 2.0.4
-      turbo-darwin-arm64: 2.0.4
-      turbo-linux-64: 2.0.4
-      turbo-linux-arm64: 2.0.4
-      turbo-windows-64: 2.0.4
-      turbo-windows-arm64: 2.0.4
+      turbo-darwin-64: 2.0.5
+      turbo-darwin-arm64: 2.0.5
+      turbo-linux-64: 2.0.5
+      turbo-linux-arm64: 2.0.5
+      turbo-windows-64: 2.0.5
+      turbo-windows-arm64: 2.0.5
 
   type-check@0.4.0:
     dependencies:
