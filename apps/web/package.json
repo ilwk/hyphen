@@ -27,6 +27,6 @@
     "@repo/config-tailwind": "workspace:*",
     "tailwindcss": "3.4.4",
     "@repo/config-typescript": "workspace:*",
-    "typescript": "5.5.2"
+    "typescript": "5.5.3"
   }
 }
