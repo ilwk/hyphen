@@ -23,7 +23,7 @@
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.4.20",
     "@repo/config-eslint": "workspace:*",
-    "postcss": "8.4.40",
+    "postcss": "8.4.41",
     "@repo/config-tailwind": "workspace:*",
     "tailwindcss": "3.4.7",
     "@repo/config-typescript": "workspace:*",
