@@ -16,7 +16,7 @@
     "react-dom": "18.3.1",
     "@repo/config-tailwind": "workspace:*",
     "@repo/config-typescript": "workspace:*",
-    "typescript": "5.5.4"
+    "typescript": "5.6.2"
   },
   "dependencies": {
     "@radix-ui/react-accessible-icon": "^1.0.3",
